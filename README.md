@@ -1,6 +1,6 @@
 # repeat-element [![NPM version](https://badge.fury.io/js/repeat-element.svg)](http://badge.fury.io/js/repeat-element)
 
-> Create an array by repeating the given string n times. 
+> Create an array by repeating the given string n times.
 
 ## Install with [npm](npmjs.org)
 

@@ -1,6 +1,6 @@
 {
   "name": "repeat-element",
-  "description": "Create an array by repeating the given string n times. ",
+  "description": "Create an array by repeating the given string n times.",
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/repeat-element",
   "author": {
