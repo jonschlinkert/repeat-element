@@ -1,0 +1,37 @@
+{
+  "name": "repeat-element",
+  "description": "Create an array by repeating the given string n times. ",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/repeat-element",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/repeat-element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/repeat-element/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/repeat-element/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "array",
+    "element",
+    "repeat",
+    "string"
+  ]
+}
