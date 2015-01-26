@@ -7,10 +7,14 @@
 
 'use strict';
 
-module.exports = function repeat(ele, n) {
-  var res = [];
-  while (n--) {
-    res.push(ele);
+module.exports = repeat;
+
+function repeat(ele, num) {
+  var arr = new Array(num);
+
+  for (var i = 0; i < num; i++) {
+    arr[i] = ele;
   }
-  return res;
-};
+
+  return arr;
+}
