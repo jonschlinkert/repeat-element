@@ -13,7 +13,7 @@ var fixtures = glob.sync(__dirname + '/fixtures/*.js');
 glob.sync(__dirname + '/code/*.js').forEach(function (fp) {
   var fn = require(path.resolve(__dirname, 'code', fp));
   var name = path.basename(fp, path.extname(fp));
-  if (/\.js/.test(fp) && /^(new|re).*/.test(name)) {
+  if (/\.js/.test(fp) && /^(cur|for-l).*/.test(name)) {
 
     fixtures.forEach(function (fixture) {
       if (/^5\.js/.test(path.basename(fixture))) {
