@@ -28,3 +28,11 @@ it('should repeat the given string:', function () {
   assert.deepEqual(repeat('a', 1), ['a']);
   assert.deepEqual(repeat('a', 0), []);
 });
+
+it('should repeat the given object:', function () {
+  assert.deepEqual(repeat({a: 'b'}, 5), [{a: 'b'},{a: 'b'},{a: 'b'},{a: 'b'},{a: 'b'}]);
+});
+
+it('should repeat null:', function () {
+  assert.deepEqual(repeat(null, 5), [null, null, null, null, null]);
+});
